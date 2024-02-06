@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-mod-3">
+            </div>
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <h2>Registration Form</h2>
+                    <label>First Name:</label>
+                    <input type="text" class="box" id="fname" name="fname" placeholder="Enter Your First Name" required>
+                    <br>
+                    <label>Last Name:</label>
+                    <input type="text" class="box" id="lname" name="lname" placeholder="Enter Your Last Name" required>
+                    <br>
+                    <label>Age:</label>
+                    <input type="text" class="box" id="age" name="age" placeholder="Enter Your Age" required>
+                    <br>
+                    <label>Email ID:</label>
+                    <input type="email" class="box" id="email" name="email" placeholder="Enter Your Email" required>
+                    <br>
+                    <label>Password:</label>
+                    <input type="password" class="box" id="password" name="password" placeholder="Enter Your Password" required>
+                    <br>
+                    <label>Mobile Number:</label>
+                    <input type="text" class="box" id="number" name="number" placeholder="Enter Your Mobile Number" required>
+                    <br>
+                    <label>Gender:</label>
+                    <input type="text" class="box" id="gender" name="gender" placeholder="Enter Your Gender" required>
+                    <br>
+                    <input type="submit" value="SUBMIT" id="submit">
+
+                </form>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
